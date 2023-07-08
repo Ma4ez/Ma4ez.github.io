@@ -26,7 +26,7 @@ body{
     text-decoration: none;
     text-transform: uppercase;
     color: #e64980;
-    font-size: 20px;
+    font-size: 18px;
     transition: all 0.1s;
     padding: 0 20px;
     border-radius: 10px;
@@ -41,25 +41,26 @@ body{
     grid-template-columns: 1fr 1fr;
     gap: 4px;
     justify-items: center;
-    height: 800px;
+    height: 650px;
 }
 .hero-container{
-    width: 900px;
+    width: 700px;
     display: flex;
     flex-direction: column;
 }
 .heading-primary{
-    padding: 50px 150px;
-    font-size: 78px;
+    padding: 48px;
+    padding-bottom: 0;
+    font-size: 60px;
     font-family: inherit;
 }
 .heading-secondary{
-    padding-left: 150px;
-    padding-right: 98px;
+    padding:48px;
     font-family: inherit;
-    font-size: 28px;
+    font-size: 24px;
     text-align: justify;
 }
+
 .img-pc{
     width: 100%;
     padding: 12px;
@@ -84,7 +85,7 @@ body{
 }
 p{
     text-align: justify;
-    font-size: 24px;
+    font-size: 18px;
     font-family: inherit;
 }
 .first-p{
@@ -101,7 +102,7 @@ p{
     /*text-transform: uppercase;*/
     font-family: inherit;
     margin: 15px 0;
-    font-size: 48px;
+    font-size: 36px;
 }
 /*------------------------
           ABOUT
@@ -118,7 +119,9 @@ p{
     border-radius: 12px;
     box-shadow: 0 0 40px 10px rgba(0,0,0,0.08);
     overflow: hidden;
-    margin: 0 400px;
+    /*margin: 0 400px;*/
+    width: 960px;
+    margin-top: 64px;
     grid-column: 1/-1;
     grid-row: 2/3;
 }
@@ -126,7 +129,7 @@ p{
     grid-column: 2/3;
 }
 .about-p{
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 24px;
     text-align: justify;
     text-indent: 50px;
@@ -157,7 +160,7 @@ p{
 }
 .heading-sec{
     color: #bbbbbb;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     padding: 12px;
 }
@@ -167,11 +170,11 @@ p{
     text-align: center;
 }
 .education-text{
-    font-size: 18px;
+    font-size: 14px;
 }
 .heading-education{
     color: #a5a2fd;
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 32px;
 }
@@ -187,7 +190,7 @@ p{
 .images{
     background-size: cover;
     width: 100%;
-    height: 280px;
+    height: 220px;
 }
 
 /*------------------------
